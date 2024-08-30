@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "DemoRestApi3.Controllers.CategoryController",
+    "Method": "Get",
+    "RelativePath": "api/Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoRestApi3.Controllers.CategoryController",
+    "Method": "Post",
+    "RelativePath": "api/Category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "DemoRestApi3.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
