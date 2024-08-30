@@ -22,11 +22,42 @@ namespace DemoRestApi3.Controllers
             return Ok(categories);
         }
 
-        [HttpPost] 
+        [HttpPost]
         public async Task<IActionResult> Post(Category category)
         {
             await _categoryService.CreateAsync(category);
             return Ok("Create Successful");
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(string id, [FromBody] Category newCategory)
+        {
+            var category = await _categoryService.GetById(id);
+            if (category == null) return NotFound();
+
+            await _categoryService.Update(id, newCategory);
+            return Ok("Create Successful");
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(string id)
+        {
+            var category = await _categoryService.GetById(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return Ok(category);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(string id)
+        {
+            var category = await _categoryService.GetById(id);
+
+            if (category == null) return NotFound();
+            await _categoryService.DeleteAsync(id);
+            return Ok("Delete Successfully");
         }
     }
 }

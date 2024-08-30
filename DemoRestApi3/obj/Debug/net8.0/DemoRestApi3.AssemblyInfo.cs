@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoRestApi3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a07cdb1eb6154cfded423785b764443b4133c23")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoRestApi3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoRestApi3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

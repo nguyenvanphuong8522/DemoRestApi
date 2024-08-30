@@ -43,3 +43,4 @@ C:\Users\Admin\source\repos\DemoRestApi3\DemoRestApi3\bin\Debug\net8.0\ZstdSharp
 C:\Users\Admin\source\repos\DemoRestApi3\DemoRestApi3\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\Admin\source\repos\DemoRestApi3\DemoRestApi3\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\Admin\source\repos\DemoRestApi3\DemoRestApi3\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Admin\source\repos\DemoRestApi3\DemoRestApi3\obj\Debug\net8.0\DemoRestApi3.sourcelink.json
